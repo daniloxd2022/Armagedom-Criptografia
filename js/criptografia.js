@@ -74,7 +74,9 @@ botao.addEventListener('click', () => {
 //  Codigo Base64
 function base64() {
     return botao.textContent.includes('Criptografar!') ? window.btoa(texto.value) : window.atob(texto.value);
-  
+
+}
+
 //textcontent referente ao texto no botão
 
 
