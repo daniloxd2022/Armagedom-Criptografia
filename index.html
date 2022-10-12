@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armagedom Criptografia</title>
+    <link rel="stylesheet" href="./css/Armagedom.css">
+    <script src="./js/criptografia.js" defer></script>
+    <!-- pra conectar mais rapido no google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <main>
+        <h1>Armagedom Criptografia </h1>
+        <!-- apelidei a section de central  para centralizar os textos no css e fiz as configurações no main -->
+        <section class="central">
+            <div id="codemsg">
+                <select name="select" id="qcode" required>
+                    
+                    <option value="vazio" disabled selected>Opções de criptografia</option>
+                    <option value="cesar">Cifra de César</option>
+                    <option value="base64">Base64</option>
+                    
+                </select>
+                <div id="divmsg">
+                    <!-- mensagem que usuario vai digitar-->
+                </div>
+                <br>
+                <textarea name="msg" id="msg" cols="40" rows="8" placeholder="Digite aqui sua mensagem..."></textarea>
+            </div>
+            <br>
+            <div>
+                <label>
+                    <input class="radio" type="radio" name="escolha" value="codificar"> Criptografar!
+                </label>
+                <label>
+                    <input class="radio" type="radio" name="escolha" value="decodificar"> Descriptografar!
+                </label>
+                <br>
+                <button id="btn">Codificar!</button>
+            </div>
+            <br>
+            <p>Sua mensagem Criptografada:</p>
+            <div id="exibeMensagem">
+                <!-- A mensagem vai aparecer aqui-->
+            </div>
+            <button id="limpar">Limpar tudo</button>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+
+</html>
