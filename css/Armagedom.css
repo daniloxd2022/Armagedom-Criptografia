@@ -37,7 +37,7 @@ h1{
    -webkit-background-clip: text; 
    -webkit-text-fill-color: transparent;
 }
-#code{
+#qcode{
    display: flex;
    justify-content: center;
    align-items: center;
@@ -46,7 +46,7 @@ h1{
    font-size: medium;
    margin-bottom: 15px;
 }
-#code:focus{
+#qcode:focus{
    background-color: thistle;
 }
 #msg{
@@ -124,7 +124,7 @@ footer.social-media a img {
         margin-bottom: 20px;
         font-size: 17px;
    }
-   #code{
+   #qcode{
        font-size: 13px;
        padding: 5px;
    }
