@@ -52,7 +52,7 @@ function exibeNaTela(conteudo) {
 botao.addEventListener('click', () => {
 
     if (!texto.value) {
-        alert('Coloque Mensagem para Criptografar!')
+        alert('Coloque uma Mensagem para Criptografar!')
     }
     else if (qCriptografia.value === 'base64' && texto.value) {
         exibeNaTela(base64())
