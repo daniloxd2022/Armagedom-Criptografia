@@ -23,5 +23,5 @@ Conhecimento Adquirido em Aulas e consultas ao stack overflow e Ajuda de Amigos.
 📌 Link do projeto no github Pages: https://daniloxd2022.github.io/Armagedom-Criptografia/
  
 
-Criando e Desenvolvido por Andrew Barbosa Deras!!
+Direção de Criação e Desenvolvimento - Danilo Nascimento
 
