@@ -2,7 +2,7 @@
 
 ## Trabalho Resilia individual 
 
-A projeto utiliza como base as metodologias de codificação como cifra de césar e base 65.
+O projeto utiliza como base as metodologias de codificação como cifra de césar e base 65.
 Com a finalidade de codificar e decodificar qualquer tipo de mensagem. 
 
 ## 🖥️ Tecnologias utilizadas
