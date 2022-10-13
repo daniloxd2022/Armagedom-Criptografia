@@ -24,7 +24,7 @@ document.querySelectorAll('input').forEach((input) => {
     })
 })
 
-//aparece a barra para escolher o numero de posições da cifra 
+//aparece a barra para escolher o incremento 
 document.querySelectorAll('select').forEach((select) => {
     select.addEventListener('change', (event) => {
         const evento = event.target;
